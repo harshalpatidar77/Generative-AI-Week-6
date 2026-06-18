@@ -1,0 +1,41 @@
+{
+    "Harshal Patidar": {
+        "patient_info": {
+            "age": "22",
+            "gender": "Male"
+        },
+        "symptoms": [
+            {
+                "date": "2026-06-18 12:14:00",
+                "symptom": "I am suffering from fever"
+            }
+        ],
+        "medicine_history": [
+            {
+                "date": "2026-06-18 12:14:01",
+                "symptom": "I am suffering from fever",
+                "possible_condition": "Influenza or Pneumonia",
+                "reason": "Fever is a common symptom of both Influenza and Pneumonia",
+                "suggested_medicines": [
+                    "Acetaminophen (Tylenol)",
+                    "Ibuprofen (Advil, Motrin)",
+                    "Antiviral medications (Oseltamivir, Zanamivir) if Influenza is suspected"
+                ]
+            }
+        ],
+        "conversation": [
+            {
+                "user": "I am suffering from fever",
+                "assistant": {
+                    "possible_condition": "Influenza or Pneumonia",
+                    "reason": "Fever is a common symptom of both Influenza and Pneumonia",
+                    "suggested_medicines": [
+                        "Acetaminophen (Tylenol)",
+                        "Ibuprofen (Advil, Motrin)",
+                        "Antiviral medications (Oseltamivir, Zanamivir) if Influenza is suspected"
+                    ]
+                }
+            }
+        ]
+    }
+}
